@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+}
+th,td{
+	width: 50px;
+	height: 40px;
+	text-align: center;
+}
+#box{
+	width: 360px;
+	height: 500px;
+	background: #222;
+	margin: 50px auto;
+	position: relative;
+}
+#moment{
+	widows: 360px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 50px;
+	color: white;
+	text-indent: 30px;
+}
+#show{
+	width: 360px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: mediumpurple;
+	text-indent: 30px;
+}
+#choose{
+	width: 360px;
+	height: 40px;
+	line-height: 40px;
+	color: #bfbfbf;
+	font-size: 22px;
+}
+#years{
+	width: 150px;
+	height: 40px;
+	font-size: 22px;
+	float: left;
+	margin-left: 30px;
+}
+#up,#down{
+	width: 40px;
+	height: 40px;
+	font-size: 22px;
+	float: right;
+	text-indent: 15px;
+	cursor: pointer;
+}
+#back{
+	width: 150px;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: mediumpurple;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}
+#up:hover{
+	color: white;
+}
+#down:hover{
+	color: white;
+}
+#back:hover{
+	color: white;
+}
